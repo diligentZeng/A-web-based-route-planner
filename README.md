@@ -1,9 +1,8 @@
 # Programmierprojekt:Routeplanner
 <html>
   <body>
-  <p style="text-align:right">Leon Kirasic 3530881</p>
-  <p style="text-align:right">Sichun Zheng 3202876</p>
-  <p style="text-align:right">Yang Fu 3595130</p>
+  <p style="text-align:right">Sichun Zeng</p>
+  <p style="text-align:right">Yang Fu </p>
 </body>
 </html>
 
