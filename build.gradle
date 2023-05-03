@@ -1,0 +1,22 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.3'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group 'org.programmierprojekt'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation group: 'org.webjars.bower', name: 'jquery', version: '3.6.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-websocket', version: '2.6.3'
+}
+
+test {
+    useJUnitPlatform()
+}
